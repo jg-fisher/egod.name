@@ -1,0 +1,59 @@
+<script src="{{url_for('static', filename='index.js')}}"></script>
+
+<h1>System Architecture</h1>
+<p>The proposed system has several key components</p>
+<ol>
+    <li>Verify good intention in the Dogecoin community by adding your Dogecoin and your Dogecoin Address to a smart contract which stores in a database {address: amount, time} for some amount of time.</li>
+    <li>Federate your identity and export data from an API (auditied to have event sourcing) into a collective dataset.</li>
+    <li>Dataset access is a token exchanged on Ocean pool as the token which permits compute-to-data access to the data set, allowing the collectve dataset to remain anonymous and encrypted, while only a schema is provided for those interested in executing compute jobs against the dataset.</li>
+    <li>A smart contract executes and distributes both the tax as a donation to the FAH shibes, and a reward into the network of data contributors given the amount of Dogecoin locked away and how long it was locked away for.</li>
+    <li>At any time you can lock up more Dogecoin in your smart contract, and receive proportionally more rewards, rewards are distributed in order of who has the most Dogecoin locked up.</li>
+    <li>If the amount of time they chose to lock up Doge for has expired they will receive their Doge back. The intial stake cannot be reduced, however you can stake additional Doge while the time is running.
+</ol>
+
+<h1>Incentives</h1>
+<ul>
+    <li>Whever someone exchanges their access token for compute-to-data access to the dataset, you get paid in Dogecoin and a portion of their purchase converts and a cut is distributed to Fold-At-Home Shibes.</li>
+    <li>Folding-at-home research paid in an automated way assuming demand for the dataset.</li>
+    <li>Enables a secondary betting market for the value of the dataset by adding more Dogecoin to your address.</li>
+</ul>
+
+<h1>How do you earn?</h1>
+<ol>
+    <ol>
+        <li>PurchasePrice - Tax = Amount in Rewards equitibly distributed to all Dogecoin addresses with both an active timers and Dogecoin staked whenever compute-to-data on the collective dataset is purchased.</li>
+        <li>PurchasePrice * Fold-At-Home Community Voted on Tax = Amount in Dogecoin donate to FAH Shibes.</li>
+        <li>In order to get your rewards at the time also be running Fold-At-Home.</li>
+    </ol>
+</ol>
+
+<h1>Instructions</h1>
+<h2>Verify Good Intentions</h2>
+<p>You must take Dogecoin from a wallet you own and puts it into a smart contract with some expiry date. Don't worry, you'll earn back more Dogecoin later when the dataset sells. You and only you have access to this smart contract, however you can't access it until a timer ends.</p>
+<div>
+    <button>Generate My Smart Contract Address</button>
+    <div>Stake Dogecoin by sending it to this Smart Contract address: </div>
+</div>
+<div>
+    <button>Confirm Dogecoin Staking</button>
+</div>
+
+<h2>Federate, Export, and Collect</h2>
+<p>Choose from verified APIs (with audited event sourcing) to export your data from if you use their services. We have integrated with chainlink and a number of partner APIs to provide the worlds most rich and reliable dataset.</p>
+<ol>
+    <li>TikTok</li>
+    <li>Instagram</li>
+    <li>Google</li>
+    <li>Twitter</li>
+    <li>Facebook</li>
+    <li>Instagram</li>
+</ol>
+<button>Federate, Export</button>
+
+<h2>Collection</h2>
+<p>Behind the scenes, smart contracts are now adding your data to the collective pool of data.</p>
+
+<h2>Trading</h2>
+<p>An exchange for the token for access to the collective data pool exists on Ocean and other decentralized exchanges (soon) for trading the value of access to the dataset.</p>
+<p>The collective data pool is also (soon) sold on the Alliance Block Data Tunnel (ALBT) to enable dataset purchasers to pay with Crypto or Fiat currencies.</p>
+
